@@ -1,5 +1,4 @@
 FROM golang:1.14-alpine as build
-
 WORKDIR /work
 COPY go.mod go.sum ./
 RUN go mod download
